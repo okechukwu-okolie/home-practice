@@ -1,13 +1,14 @@
 import React from 'react'
-import Student from './components/Student'
+import List from './components/List'
+// import ConditionalRendering from './components/ConditionalRendering'
 
 const App = () => {
   return (
     <div>
-      <Student name='samuel okolie' 
-                age={35}
-                level='masters degree'
-                />
+     
+            {/* <ConditionalRendering name='samuel okolie' isGreeting={false} />   */}
+            <List/>
+
     </div>
   )
 }

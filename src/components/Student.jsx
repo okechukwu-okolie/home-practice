@@ -14,5 +14,14 @@ export default function Student({name,age,level}) {
   )
 }
 Student.propTypes = {
+  name:PropTypes.string,
+  age:PropTypes.number,
+  level:PropTypes.string,
+  isMarried:PropTypes.bool
 
+}
+
+Student.defaultprops = {
+  name='Guest',
+  
 }
